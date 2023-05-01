@@ -1,0 +1,51 @@
+
+body{
+    background-image: url('6.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+
+}
+h1{
+    color: rgb(132, 198, 210);
+    text-shadow: 2px 2px 1px rgb(216, 110, 226);
+    font-size: 3rem;
+    margin-top: 0rem;
+    margin-left: 4rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5rem;
+}
+.textStyle{
+    font-size: 7rem;
+    font-weight: bold;
+    margin: 2rem;
+
+}
+.underC{
+    text-align: center;
+    margin-right: 2rem;
+}
+.underC span{
+    font-size: 2rem;
+
+}
+#daysDesign{
+    color:rgb(235, 112, 132);
+}
+#hoursDesign{
+    color:#8eb07b;
+}
+#minutesDesign{
+    color:rgb(229, 86, 229);
+}#secondsDesign{
+    color: rgb(243, 243, 102);
+}#millisecon{
+    color:#B1562D;
+}
